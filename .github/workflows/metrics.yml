@@ -18,3 +18,8 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_languages: on
+          plugin_languages_ignored: Makefile, CMake
+          plugin_activity: on
+          plugin_activity_limit: 3
+          plugin_activity_visibility: public
+          
