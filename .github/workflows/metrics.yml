@@ -19,7 +19,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_languages: on
           plugin_languages_ignored: Makefile, CMake
-          plugin_activity: on
-          plugin_activity_limit: 3
-          plugin_activity_visibility: public
-          
+          plugin_code: on
+          plugin_code_languages: Java, C++
+          plugin_code_load: 400
